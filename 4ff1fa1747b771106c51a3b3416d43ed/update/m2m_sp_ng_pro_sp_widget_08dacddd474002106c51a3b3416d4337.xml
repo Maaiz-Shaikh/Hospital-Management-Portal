@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_ng_pro_sp_widget">
+    <m2m_sp_ng_pro_sp_widget action="INSERT_OR_UPDATE">
+        <sp_angular_provider display_value="spAttachmentManager">06e836f0d722120023c84f80de6103a1</sp_angular_provider>
+        <sp_widget display_value="form clone hm">80dacddd474002106c51a3b3416d4335</sp_widget>
+        <sys_class_name>m2m_sp_ng_pro_sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-29 07:06:57</sys_created_on>
+        <sys_id>08dacddd474002106c51a3b3416d4337</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>spAttachmentManager.form clone hm</sys_name>
+        <sys_package display_value="Hospital Management Portal" source="x_1299926_hospital">4ff1fa1747b771106c51a3b3416d43ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hospital Management Portal">4ff1fa1747b771106c51a3b3416d43ed</sys_scope>
+        <sys_update_name>m2m_sp_ng_pro_sp_widget_08dacddd474002106c51a3b3416d4337</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-29 07:06:57</sys_updated_on>
+    </m2m_sp_ng_pro_sp_widget>
+</record_update>

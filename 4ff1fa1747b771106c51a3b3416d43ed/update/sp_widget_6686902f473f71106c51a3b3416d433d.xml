@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>/* Apply some basic styling to the header container */
+div {
+  text-align: center;
+  padding: 20px;
+  background-color: #3498db; /* Set background color as per your preference */
+  color: #fff; /* Set text color as per your preference */
+}
+
+/* Style the heading */
+h1 {
+  margin: 0;
+  font-size: 24px;
+}
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>hospital_management_system_header</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>hospital management system header</name>
+        <option_schema>[{"hint":"Header Title","name":"header_title","section":"Data","default_value":"Hospital Management System","label":"Header Title","type":"string"}]</option_schema>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-23 16:49:12</sys_created_on>
+        <sys_id>6686902f473f71106c51a3b3416d433d</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>hospital management system header</sys_name>
+        <sys_package display_value="Hospital Management Portal" source="x_1299926_hospital">4ff1fa1747b771106c51a3b3416d43ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hospital Management Portal">4ff1fa1747b771106c51a3b3416d43ed</sys_scope>
+        <sys_update_name>sp_widget_6686902f473f71106c51a3b3416d433d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:16:08</sys_updated_on>
+        <template><![CDATA[<div>
+<!-- your widget template -->
+ <!-- <h1>
+    Hospital Management System
+  </h1>-->
+  <h1>
+    {{options.header_title}}
+  </h1>
+</div>]]></template>
+    </sp_widget>
+</record_update>

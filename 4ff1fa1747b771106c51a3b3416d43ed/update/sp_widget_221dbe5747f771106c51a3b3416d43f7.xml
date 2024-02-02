@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function($location, spUtil, spModal) {
+  /* widget controller */
+  var c = this;
+	//c.server.update(); //overwrites the data object with new updated contents
+	//console.log("Patient first Name: " + c.data.patient.name);
+	c.onDelete = function(sysId) {
+		c.data.sysId = sysId;
+		c.server.update().then(function() {
+			//location.reload();
+			//gs.addInfoMessage("Record Deleted");
+			spUtil.addInfoMessage("Record Deleted");
+			location.replace('https://dev191770.service-now.com/hms?id=patient_table_page');
+			//console.log("reload");
+			
+			//console.log("info msg");
+		});
+		//location.reload();
+		
+	}
+	
+	c.onUpdate = function(sysId, action) {
+		spUtil.addInfoMessage("Record Updated");
+		if(action=="update"){
+			spModal.open({
+				title:'Update Details',
+				widget:"widget-form",
+				widgetInput:{sys_id:sysId,table:'x_1299926_hospital_patient_table'},
+			}).then(function(){
+				//spUtil.addInfoMessage("Record Updated"),
+				alert("pop close");
+					location.reload();
+					//spUtil.addInfoMessage("Record Updated");
+			})
+		}
+	//	$location.search('id=update_patient_form_page&recordSysId='+sysId);
+	}
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>/* Apply some basic styling to the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Style the table header */
+th {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: left;
+}
+
+
+/* Style alternating rows in the table */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Style table cells */
+td {
+  padding: 10px;
+}
+
+/* Add some hover effect to table rows */
+tr:hover {
+  background-color: #e0e0e0;
+}
+
+
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>patient_table_widget</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>patient table widget</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	  var patientRecord = new GlideRecord('x_1299926_hospital_patient_table');
+		patientRecord.orderByDesc('sys_created_on');
+    patientRecord.query();
+		data.patients = [];
+		
+		while(patientRecord.next()){
+			 var obj = {};
+			 obj.name = patientRecord.getValue('patient_name');
+			 obj.sysId = patientRecord.getValue('sys_id');
+			 obj.doctor = patientRecord.getDisplayValue('u_reference_1');
+			 data.patients.push(obj);
+    }
+		
+	  if(input && input.sysId) {
+			var delRecord = new GlideRecord('x_1299926_hospital_patient_table');
+			delRecord.addQuery('sys_id',input.sysId);
+			delRecord.query();
+			if(delRecord.next()) {
+				delRecord.deleteRecord();
+			}
+		}
+	
+	//gs.addInfoMessage("Record Deleted");
+		
+	
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-23 10:18:27</sys_created_on>
+        <sys_id>221dbe5747f771106c51a3b3416d43f7</sys_id>
+        <sys_mod_count>64</sys_mod_count>
+        <sys_name>patient table widget</sys_name>
+        <sys_package display_value="Hospital Management Portal" source="x_1299926_hospital">4ff1fa1747b771106c51a3b3416d43ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hospital Management Portal">4ff1fa1747b771106c51a3b3416d43ed</sys_scope>
+        <sys_update_name>sp_widget_221dbe5747f771106c51a3b3416d43f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-29 06:57:41</sys_updated_on>
+        <template><![CDATA[<div>
+<!-- your widget template -->
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Patient Name</th>
+        <th>Assigned Doctor</th>
+        <th colspan=2>Operations</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="patient in c.data.patients">
+        <td>{{patient.name}}</td>
+        <td>{{patient.doctor}}</td>
+        <td><button type="button" ng-click="c.onUpdate(patient.sysId,'update')" class="btn btn-success">
+          Update
+          </button>
+        </td>
+        <td><button type="button" ng-click="c.onDelete(patient.sysId)" class="btn btn-danger">
+          Delete
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>]]></template>
+    </sp_widget>
+</record_update>

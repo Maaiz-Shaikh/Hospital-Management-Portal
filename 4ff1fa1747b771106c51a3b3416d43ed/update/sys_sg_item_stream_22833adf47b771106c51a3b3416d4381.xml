@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream">
+    <sys_sg_item_stream action="INSERT_OR_UPDATE">
+        <data_item display_value="Hospital Management Portal Patient table">e68336df47b771106c51a3b3416d4310</data_item>
+        <interleaved_field/>
+        <name>Patient table Item Stream</name>
+        <sys_class_name>sys_sg_item_stream</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-23 09:36:40</sys_created_on>
+        <sys_id>22833adf47b771106c51a3b3416d4381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Patient table Item Stream</sys_name>
+        <sys_package display_value="Hospital Management Portal" source="x_1299926_hospital">4ff1fa1747b771106c51a3b3416d43ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hospital Management Portal">4ff1fa1747b771106c51a3b3416d43ed</sys_scope>
+        <sys_update_name>sys_sg_item_stream_22833adf47b771106c51a3b3416d4381</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-23 09:36:40</sys_updated_on>
+        <table/>
+    </sys_sg_item_stream>
+</record_update>

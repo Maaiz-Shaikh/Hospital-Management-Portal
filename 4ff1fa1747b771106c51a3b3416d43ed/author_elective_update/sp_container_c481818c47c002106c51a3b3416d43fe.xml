@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Demo Form - Container 2</name>
+        <order>2</order>
+        <sp_page display_value="demo_form">3771818c47c002106c51a3b3416d43fa</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-25 09:13:51</sys_created_on>
+        <sys_id>c481818c47c002106c51a3b3416d43fe</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Demo Form - Container 2</sys_name>
+        <sys_package display_value="Hospital Management Portal" source="x_1299926_hospital">4ff1fa1747b771106c51a3b3416d43ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hospital Management Portal">4ff1fa1747b771106c51a3b3416d43ed</sys_scope>
+        <sys_update_name>sp_container_c481818c47c002106c51a3b3416d43fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-25 09:14:04</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hospital Management Portal">4ff1fa1747b771106c51a3b3416d43ed</application>
+        <file_path/>
+        <instance_id>f918e9c5db067198b1eb9027c59619d9</instance_id>
+        <instance_name>dev191770</instance_name>
+        <name>sp_container_c481818c47c002106c51a3b3416d43fe</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Demo Form - Container 2</name><order>2</order><sp_page display_value="demo_form">3771818c47c002106c51a3b3416d43fa</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-25 09:13:51</sys_created_on><sys_id>c481818c47c002106c51a3b3416d43fe</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Demo Form - Container 2</sys_name><sys_package display_value="Hospital Management Portal" source="x_1299926_hospital">4ff1fa1747b771106c51a3b3416d43ed</sys_package><sys_policy/><sys_scope display_value="Hospital Management Portal">4ff1fa1747b771106c51a3b3416d43ed</sys_scope><sys_update_name>sp_container_c481818c47c002106c51a3b3416d43fe</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-25 09:14:04</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-762478183</payload_hash>
+        <record_name>Demo Form - Container 2</record_name>
+        <reverted_from/>
+        <source>43f1fa1747b771106c51a3b3416d43f0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-25 09:14:04</sys_created_on>
+        <sys_id>0f81058c47c002106c51a3b3416d43f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d3fe5daee0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-25 09:14:04</sys_updated_on>
+        <type>Container</type>
+        <update_guid>c381058ca6c00210c2400b0b4ad995f0</update_guid>
+        <update_guid_history>c381058ca6c00210c2400b0b4ad995f0:-762478183,4081c98cb7c00210bd66288f5a8d281d:-1033003878</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Demo Form - Container 2">6091458c47c002106c51a3b3416d43c2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-25 09:14:10</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>29869f55a69c424b976cc38ade557db9</sys_id>
+        <sys_metadata>c481818c47c002106c51a3b3416d43fe</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demo Form - Container 2</sys_name>
+        <sys_package display_value="Hospital Management Portal" source="x_1299926_hospital">4ff1fa1747b771106c51a3b3416d43ed</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Hospital Management Portal">4ff1fa1747b771106c51a3b3416d43ed</sys_scope>
+        <sys_scope_delete display_value="">7bfadf24cda144b3b0c240845b9cb7b1</sys_scope_delete>
+        <sys_update_name>sp_container_c481818c47c002106c51a3b3416d43fe</sys_update_name>
+        <sys_update_version display_value="sp_container_c481818c47c002106c51a3b3416d43fe">0f81058c47c002106c51a3b3416d43f0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-25 09:14:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

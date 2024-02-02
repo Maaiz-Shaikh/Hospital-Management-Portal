@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Patient Table Page - Container 2</name>
+        <order>2</order>
+        <sp_page display_value="patient_table_page">038758eb473f71106c51a3b3416d4354</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-23 16:53:37</sys_created_on>
+        <sys_id>4f87146f473f71106c51a3b3416d430e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Patient Table Page - Container 2</sys_name>
+        <sys_package display_value="Hospital Management Portal" source="x_1299926_hospital">4ff1fa1747b771106c51a3b3416d43ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hospital Management Portal">4ff1fa1747b771106c51a3b3416d43ed</sys_scope>
+        <sys_update_name>sp_container_4f87146f473f71106c51a3b3416d430e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-23 16:54:16</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hospital Management Portal">4ff1fa1747b771106c51a3b3416d43ed</application>
+        <file_path/>
+        <instance_id>f918e9c5db067198b1eb9027c59619d9</instance_id>
+        <instance_name>dev191770</instance_name>
+        <name>sp_container_4f87146f473f71106c51a3b3416d430e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Patient Table Page - Container 2</name><order>2</order><sp_page display_value="patient_table_page">038758eb473f71106c51a3b3416d4354</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-23 16:53:37</sys_created_on><sys_id>4f87146f473f71106c51a3b3416d430e</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Patient Table Page - Container 2</sys_name><sys_package display_value="Hospital Management Portal" source="x_1299926_hospital">4ff1fa1747b771106c51a3b3416d43ed</sys_package><sys_policy/><sys_scope display_value="Hospital Management Portal">4ff1fa1747b771106c51a3b3416d43ed</sys_scope><sys_update_name>sp_container_4f87146f473f71106c51a3b3416d430e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-23 16:54:16</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-1016741543</payload_hash>
+        <record_name>Patient Table Page - Container 2</record_name>
+        <reverted_from/>
+        <source>43f1fa1747b771106c51a3b3416d43f0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-23 16:54:16</sys_created_on>
+        <sys_id>f0b7946f473f71106c51a3b3416d4331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d373e75520000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-23 16:54:16</sys_updated_on>
+        <type>Container</type>
+        <update_guid>f4b7942f703f71107b6d5c4bf44bb80f</update_guid>
+        <update_guid_history>f4b7942f703f71107b6d5c4bf44bb80f:-1016741543,cb87146f053f71104608074c15aa2d0f:-1362783142</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Patient Table Page - Container 2">feb7106f473f71106c51a3b3416d436c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-23 16:54:25</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>1e6f6735686f4d82bef9fdac38374cf1</sys_id>
+        <sys_metadata>4f87146f473f71106c51a3b3416d430e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Patient Table Page - Container 2</sys_name>
+        <sys_package display_value="Hospital Management Portal" source="x_1299926_hospital">4ff1fa1747b771106c51a3b3416d43ed</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Hospital Management Portal">4ff1fa1747b771106c51a3b3416d43ed</sys_scope>
+        <sys_scope_delete display_value="">7bfadf24cda144b3b0c240845b9cb7b1</sys_scope_delete>
+        <sys_update_name>sp_container_4f87146f473f71106c51a3b3416d430e</sys_update_name>
+        <sys_update_version display_value="sp_container_4f87146f473f71106c51a3b3416d430e">f0b7946f473f71106c51a3b3416d4331</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-23 16:54:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

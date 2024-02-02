@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <size>12</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">46965182474802106c51a3b3416d4330</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 15:53:52</sys_created_on>
+        <sys_id>8e965182474802106c51a3b3416d4332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Hospital Management Portal" source="x_1299926_hospital">4ff1fa1747b771106c51a3b3416d43ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hospital Management Portal">4ff1fa1747b771106c51a3b3416d43ed</sys_scope>
+        <sys_update_name>sp_column_8e965182474802106c51a3b3416d4332</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 15:53:52</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hospital Management Portal">4ff1fa1747b771106c51a3b3416d43ed</application>
+        <file_path/>
+        <instance_id>f918e9c5db067198b1eb9027c59619d9</instance_id>
+        <instance_name>dev191770</instance_name>
+        <name>sp_column_8e965182474802106c51a3b3416d4332</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>1</order><size>12</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">46965182474802106c51a3b3416d4330</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-31 15:53:52</sys_created_on><sys_id>8e965182474802106c51a3b3416d4332</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Hospital Management Portal" source="x_1299926_hospital">4ff1fa1747b771106c51a3b3416d43ed</sys_package><sys_policy/><sys_scope display_value="Hospital Management Portal">4ff1fa1747b771106c51a3b3416d43ed</sys_scope><sys_update_name>sp_column_8e965182474802106c51a3b3416d4332</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-31 15:53:52</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>-485794942</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>43f1fa1747b771106c51a3b3416d43f0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 15:53:53</sys_created_on>
+        <sys_id>ce965182474802106c51a3b3416d4334</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d603a0a770000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 15:53:53</sys_updated_on>
+        <type>Column</type>
+        <update_guid>06965182d34802105f1637a6d31d8434</update_guid>
+        <update_guid_history>06965182d34802105f1637a6d31d8434:-485794942</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">1b179d8e470802106c51a3b3416d437f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 15:56:08</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>01b5b0baa1ff428083f29fe14c964000</sys_id>
+        <sys_metadata>8e965182474802106c51a3b3416d4332</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Hospital Management Portal" source="x_1299926_hospital">4ff1fa1747b771106c51a3b3416d43ed</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Hospital Management Portal">4ff1fa1747b771106c51a3b3416d43ed</sys_scope>
+        <sys_scope_delete display_value="">7bfadf24cda144b3b0c240845b9cb7b1</sys_scope_delete>
+        <sys_update_name>sp_column_8e965182474802106c51a3b3416d4332</sys_update_name>
+        <sys_update_version display_value="sp_column_8e965182474802106c51a3b3416d4332">ce965182474802106c51a3b3416d4334</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 15:56:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

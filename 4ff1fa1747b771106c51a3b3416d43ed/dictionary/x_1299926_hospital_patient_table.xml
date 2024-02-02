@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3bc2fa9f47b771106c51a3b3416d4391" label="Patient table" max_length="40" name="x_1299926_hospital_patient_table" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Doctor assigned" max_length="40" name="doctor_assigned" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Patient name" max_length="40" name="patient_name" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="encode_utf8=false" label="Doctor assigned" max_length="32" name="u_reference_1" reference="x_1299926_hospital_doctor_table" type="reference"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index2">
+            <element name="u_reference_1"/>
+        </index>
+    </element>
+</database>

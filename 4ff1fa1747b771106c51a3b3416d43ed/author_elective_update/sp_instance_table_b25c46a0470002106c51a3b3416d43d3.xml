@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list>number,patient_name,u_reference_1</field_list>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>20</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">b08b46a0470002106c51a3b3416d43df</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-27 03:57:52</sys_created_on>
+        <sys_id>b25c46a0470002106c51a3b3416d43d3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Patient Record</sys_name>
+        <sys_package display_value="Hospital Management Portal" source="x_1299926_hospital">4ff1fa1747b771106c51a3b3416d43ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hospital Management Portal">4ff1fa1747b771106c51a3b3416d43ed</sys_scope>
+        <sys_update_name>sp_instance_table_b25c46a0470002106c51a3b3416d43d3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-27 04:00:12</sys_updated_on>
+        <table>x_1299926_hospital_patient_table</table>
+        <title>Patient Record</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="DELETE" query="documentkey=b25c46a0470002106c51a3b3416d43d3"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hospital Management Portal">4ff1fa1747b771106c51a3b3416d43ed</application>
+        <file_path/>
+        <instance_id>f918e9c5db067198b1eb9027c59619d9</instance_id>
+        <instance_name>dev191770</instance_name>
+        <name>sp_instance_table_b25c46a0470002106c51a3b3416d43d3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table"><sp_instance_table action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><display_field/><field_list>number,patient_name,u_reference_1</field_list><filter/><glyph/><id/><maximum_entries>20</maximum_entries><order>1</order><order_by/><order_direction>asc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="1">b08b46a0470002106c51a3b3416d43df</sp_column><sp_page/><sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget><sys_class_name>sp_instance_table</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-27 03:57:52</sys_created_on><sys_id>b25c46a0470002106c51a3b3416d43d3</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Patient Record</sys_name><sys_package display_value="Hospital Management Portal" source="x_1299926_hospital">4ff1fa1747b771106c51a3b3416d43ed</sys_package><sys_policy/><sys_scope display_value="Hospital Management Portal">4ff1fa1747b771106c51a3b3416d43ed</sys_scope><sys_update_name>sp_instance_table_b25c46a0470002106c51a3b3416d43d3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-27 04:00:12</sys_updated_on><table>x_1299926_hospital_patient_table</table><title>Patient Record</title><url/><widget_parameters/></sp_instance_table><sys_translated_text action="delete_multiple" query="documentkey=b25c46a0470002106c51a3b3416d43d3"/></record_update>]]></payload>
+        <payload_hash>1840548501</payload_hash>
+        <record_name>Patient Record</record_name>
+        <reverted_from/>
+        <source>43f1fa1747b771106c51a3b3416d43f0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-27 04:00:12</sys_created_on>
+        <sys_id>30ec4ee0470002106c51a3b3416d431a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d4913358b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-27 04:00:12</sys_updated_on>
+        <type>Instance with Table</type>
+        <update_guid>38ec4ee0fc000210df57be7b25fffa19</update_guid>
+        <update_guid_history>38ec4ee0fc000210df57be7b25fffa19:1840548501,4b8c46a0110002108433a20eead1b6f1:-1007199248,f65c46a028000210ef6812025f1f7bd4:-590785654</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Patient Record">db0c4551478002106c51a3b3416d438f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-29 07:12:22</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_table">sp_instance_table</sys_db_object>
+        <sys_id>1c66d50e4027477e94e12016ea6bb924</sys_id>
+        <sys_metadata>b25c46a0470002106c51a3b3416d43d3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Patient Record</sys_name>
+        <sys_package display_value="Hospital Management Portal" source="x_1299926_hospital">4ff1fa1747b771106c51a3b3416d43ed</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Hospital Management Portal">4ff1fa1747b771106c51a3b3416d43ed</sys_scope>
+        <sys_scope_delete display_value="">7bfadf24cda144b3b0c240845b9cb7b1</sys_scope_delete>
+        <sys_update_name>sp_instance_table_b25c46a0470002106c51a3b3416d43d3</sys_update_name>
+        <sys_update_version display_value="sp_instance_table_b25c46a0470002106c51a3b3416d43d3">30ec4ee0470002106c51a3b3416d431a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-29 07:12:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

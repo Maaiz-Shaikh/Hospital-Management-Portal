@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Hospital Management System Home Page - Container 1</name>
+        <order>1</order>
+        <sp_page display_value="hospital_management_system_home_page">50245c6b473f71106c51a3b3416d4328</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-23 16:38:40</sys_created_on>
+        <sys_id>98245c6b473f71106c51a3b3416d432a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hospital Management System Home Page - Container 1</sys_name>
+        <sys_package display_value="Hospital Management Portal" source="x_1299926_hospital">4ff1fa1747b771106c51a3b3416d43ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hospital Management Portal">4ff1fa1747b771106c51a3b3416d43ed</sys_scope>
+        <sys_update_name>sp_container_98245c6b473f71106c51a3b3416d432a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-23 16:38:40</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+</record_update>
